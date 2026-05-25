@@ -292,3 +292,27 @@ footer {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+/* ==============================
+   FOOTER POLICY LINKS
+============================== */
+.footer-links {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #444;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #e63946;
+}
